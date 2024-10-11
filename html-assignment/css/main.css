@@ -1,0 +1,43 @@
+body {
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+h1, footer {
+    background-color: blueviolet;
+}
+
+.site-title {
+   color: yellow; 
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px;
+}
+
+ul{
+    list-style-type: square;
+
+}
+
+ul li:nth-child(odd) {
+    background-color: red;
+}
+nav ul {
+    list-style-type: none; /* Remove bullets from nav if using ul */
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px;
+    border: 1px solid #333;
+    margin-right: 2px;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #333;
+    color: #fff;
+}

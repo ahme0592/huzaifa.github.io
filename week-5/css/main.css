@@ -1,0 +1,82 @@
+/*  This is a CSS comment */
+
+
+body {
+
+    background-color: blanchedalmond;
+    padding: 30px; 
+    font-weight: bold;
+   color: chocolate;    
+}
+
+h1, h2, blockquote {
+color: green;
+
+
+}
+
+h1 {
+
+    font-size: 60px;
+}
+
+h2 {
+font-size: 40px;
+
+}
+
+#treat {
+
+text-decoration: none;
+padding: 10px 20px;
+background-color: crimson;
+border: 2px solid green;
+}
+/* Targets both <p> tags, have to put par and par 2 class to change
+specific paragraphs */
+.par{
+    border: 5px solid lightsalmon;
+    padding: 60px;
+}
+
+par abbr {
+    font-weight: bold;
+    color: pink;
+
+}
+
+[src="images/bread.jpg"] {
+
+    width: 300px;
+    box-shadow: 10px 10 px 30px 5px blueviolet;
+}
+
+article p{
+
+    color: red;
+} 
+
+  blockquote {
+    background-color: yellow;
+}
+
+/* section ol {
+
+    border: 2px solid turquoise;
+} */
+
+/* section ol li {
+
+    background-color: black;
+    
+} */
+
+.events {
+
+    border: 2px solid turquoise;
+    background-color: yellow;
+}
+.events ol li {
+    font-weight: bold;
+}
+
