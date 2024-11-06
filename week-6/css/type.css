@@ -1,0 +1,47 @@
+html{
+    font-size: 10px;
+}
+
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    /* 1rem= 16px
+    2.5rem(10px) = 25px*/
+}
+h2{
+    font-size: 2rem;
+}
+
+article{
+    font-size: 1.5rem;
+    /* 1.5rem(10px) = 15 px */
+}
+
+article h3{
+    font-size: 1.5em;
+}
+
+article p {
+    font-size: 1em;
+width: 4em;
+
+padding: 30px;
+
+}
+
+article p {
+
+    width: 50%;
+}
+/* vh vw
+viewport height viewport width */
+
+header{
+    height: 100vh;
+    width: 100vw;
+}

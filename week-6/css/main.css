@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ /*My css*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;   
+    padding: 0 20px;
+}
+
+.bg-image{
+
+    width: 100%;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+section{
+    margin: 40px 0 50px;
+    /*top left right bottom */
+}
+
+header{
+    position: relative;
+    height: 100vh;
+}
+
+.bg-image{
+    width: 100%;
+    
+}
+
+header h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* moves it left by 50% of is own width, and up by 50% by its own height*/
+    text-transform:uppercase
+article p {
+    line-height: 1.5;
+
+}
+
+
+footer{
+    background-color: green;
+    color: white
+}
+
+footer{
+    background-color: green;
+    color: white;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/037/814/719/small_2x/ai-generated-autumn-leaves-in-the-forest-nature-background-photo.jpg");
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
