@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lone Starfish</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with background image and site title -->
+        <header>
+            <img src="image/images.jpg" alt="Starfish Background">
+            <h1>Lone Starfish</h1>
+            <nav>
+                <a href="#home">HOME</a>
+                <a href="#story">STORY</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+
+        <!-- Article section with text wrapping around the image -->
+        <article class="intro" id="story">
+            <h2>Life of a Starfish</h2>
+            <div class="content">
+                <img src="image/images.jpg" alt="Starfish Image">
+                <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mao...</p>
+            </div>
+        </article>
+
+        <!-- Facts section with list of starfish facts -->
+        <section class="facts">
+            <h3>Facts About Starfish</h3>
+            <ul>
+                <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+                <li>Waryfish, "lionfish," longfin smelt; leopard danio dragonfish; "Lost River sucker, mojarra.</li>
+                <!-- Add more facts as needed -->
+            </ul>
+        </section>
+
+        <!-- Contact form with labels linked to inputs -->
+        <section class="contact" id="contact">
+            <h3>Contact to learn more</h3>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <p>Would you like to visit the starfish?</p>
+                <label><input type="radio" name="visit" value="yes"> Yes</label>
+                <label><input type="radio" name="visit" value="no"> No</label>
+                <label><input type="radio" name="visit" value="maybe"> Maybe</label>
+                
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© Lone Starfish.</p>
+        </footer>
+    </div>
+</body>
+</html>

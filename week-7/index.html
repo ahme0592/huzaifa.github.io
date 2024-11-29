@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 In-Class Demo</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+<h1>Week 7 Demo</h1>
+<img class="bg-image" src="images/web-header-image.png" alt="web">
+<nav>
+    <ul> 
+        <div class="wrapper"> 
+        <li><a href="index.html">Home</a> </li>
+        <li> <a href="section-1">Section 1</a></li>
+        <li> <a href="section-2">Section 2</a></li>
+        <li> <a href="">Contact Us</a></li>
+    </ul>
+</div>
+</nav>
+    </header>
+    
+    <main>
+        
+        <section>
+            <!--Indent: Tab  outdent: shift + tab-->
+            <div id="wrapper"></div>
+            <h2 id="section-1">Section 1 </h2>
+            <article>
+                <h3>Article 1 </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Et rem obcaecati inventore. Rerum, quia. Dolor deserunt nesciunt sit, 
+                    quisquam dolores atque sequi illum, inventore expedita ipsam praesentium. 
+                    Deserunt, omnis assumenda.</p>
+            </article>
+        </section>
+        <section>
+            <!--Indent: Tab  outdent: shift + tab-->
+            <h2 id="section-2">Section 2 </h2>
+            <article>
+                <h3>Article 2 </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Et rem obcaecati inventore. Rerum, quia. Dolor deserunt nesciunt sit, 
+                    quisquam dolores atque sequi illum, inventore expedita ipsam praesentium. 
+                    Deserunt, omnis assumenda.</p>
+            </article>
+        </section>
+        <section class="contact-section">
+            <h2> Contact Us</h2>
+            <form class="contact-form">
+                <div class="fname"> 
+            <label for="fname">Full Name</label>
+                <input type="text" name="fname" id="fname">
+                </div> 
+                <div class="phone">
+                    <label for="phone"> Phone Number</label>
+                    <input type="tel" name="phone" id="phone" placeholder="000-000-000">
+                </div>
+                <div class="message">
+                    <label for="message">Message </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <!--Radio buttons-->
+
+                <div class="newsletter">
+                    <p> Would you like to susbrcibe to Stevejake12?</p>
+                    <label for="yes"> Yes</label>
+                    <input type="radio" id="yes" name="newsletter">
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="newsletter" value="no">
+                    </div>
+                    <!-- Each radio input must have its own label
+                     Must have same name attributes to group things
+                     Each radio input must have a unique value attribute-->
+
+                <div class="times">
+                <p> When would you like to be notified?</p>
+                <label for="morning" > Morning</label>
+                <input type="checkbox" id="morning" name="morning" value="afternoon">
+
+                <label for="evening">Evening</label>
+                <input type="checkbox" id="evening" name="evening" value="evening">
+
+                </div>
+                
+                <input type="submit" value="Send message">
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> &#128511; &copy; Copyright 2024 &#128511;</p>
+    </footer>
+    </body>
+    </html>
