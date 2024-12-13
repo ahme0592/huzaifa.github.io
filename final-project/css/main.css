@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Wrapper */
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+form button {
+    padding: 0.5rem;
+    background-color: gold;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: #222;
+    cursor: pointer;
+}
+
+/* Hero Section */
+section:nth-of-type(1) {
+    background-image: url(../images/main-banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-top: 200px;
+  height: 80vh;
+    color: #ffffff;
+    background-color: black;
+    opacity: 85%;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+section:nth-of-type(1) h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+section:nth-of-type(1) a {
+    padding: 0.5rem 1rem;
+    background-color: gold;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* About Us */
+section:nth-of-type(2) {
+    background-color: #f1e949;
+    padding: 2rem;
+}
+
+section:nth-of-type(2) img {
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+/* Services Section */
+section:nth-of-type(3) {
+    background-color: #f3f3f3;
+    padding: 2rem;
+}
+
+section:nth-of-type(3) h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section:nth-of-type(3) div {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(3) article {
+    flex: 1 1 calc(33.33% - 1rem);
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section:nth-of-type(3) a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: gold;
+    color: #222;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Vision Section */
+section:nth-of-type(4) {
+    background: url('images/Vision.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+section:nth-of-type(4) a {
+    padding: 0.5rem 1rem;
+    background-color: gold;
+    color: #222;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+section:nth-of-type(5) {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+section:nth-of-type(5) div {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(5) article {
+    flex: 1 1 calc(50% - 1rem);
+    text-align: center;
+}
+
+section:nth-of-type(5) img {
+    max-width: 100%;
+    /* Removed border-radius */
+}
+
+
+/* Contact Section */
+section:nth-of-type(6) {
+    background-color: #f3f3f3;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+section:nth-of-type(6) form, section:nth-of-type(6) div {
+    flex: 1;
+}
+
+section:nth-of-type(6) form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+section:nth-of-type(6) form input, section:nth-of-type(6) form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+section:nth-of-type(6) form button {
+    padding: 0.5rem 1rem;
+    background-color: gold;
+    border: none;
+    border-radius: 4px;
+    color: #222;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer table {
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+
+footer table th, footer table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+/* Media Queries for Mobile Screens */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* Hero Section */
+    section:nth-of-type(1) {
+        padding: 2rem 1rem;
+    }
+
+    section:nth-of-type(1) h1 {
+        font-size: 2rem;
+    }
+
+    /* Services Section */
+    section:nth-of-type(3) div {
+        flex-direction: column;
+    }
+
+    section:nth-of-type(3) article {
+        flex: 1 1 100%;
+    }
+
+    /* Vision Section */
+    section:nth-of-type(4) {
+        padding: 2rem 1rem;
+    }
+
+    /* Team Section */
+    section:nth-of-type(5) div {
+        flex-direction: column;
+    }
+
+    section:nth-of-type(5) article {
+        flex: 1 1 100%;
+    }
+
+    /* Contact Section */
+    section:nth-of-type(6) {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Footer Table */
+    footer table {
+        width: 100%;
+    }
+}
+
